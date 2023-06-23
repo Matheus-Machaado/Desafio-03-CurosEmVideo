@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap');
+@font-face {
+  font-family: 'android';
+  src: url(fonts/Android.ttf) format(opentype);
+}
+
+* {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #e9e6c3;
+}
+
+header {
+  background-image: linear-gradient(to bottom, #5D9977, #228B52, #043D1C);
+  padding: 10px 5px 5px 5px;
+}
+
+header h1, header p {
+  text-align: center;
+  color: #ffffff;
+}
+
+header h1 {
+  font-size: 35px;
+}
+
+header p {
+  font-size: 17px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.438);
+  margin-top: 15px;
+}
+
+nav ul {
+  display: flex;
+  margin-top: 15px;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  margin-left: 6px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  color: #388d60;
+  background-color: #196b40;
+  transition: 200ms;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 1050px;
+  height: 2400px;
+  padding: 25px;
+  background-color: #ffffff;
+  margin: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.363);
+}
+
+main h1 {
+  color: #183a29;
+  font-family: 'android';
+  font-size: 25px;
+}
+
+main p {
+  margin: 15px 0;
+  text-indent: 18px;
+  text-align: justify;
+  color: #333333;
+}
+
+main h2 {
+  font-family: 'android';
+  color: #126437;
+  background-image: linear-gradient(to right, #84E4AF, #A1EAC0, #CCF4DE, #ffffff);
+  padding: 3px 10px;
+}
+
+main a {
+  font-weight: bold;
+  color: #126437;
+  background-image: linear-gradient(to right, #84E4AF, #A1EAC0);
+  padding: 1px 6px;
+}
+
+main a:hover {
+  text-decoration: underline;
+}
+
+.droids {
+  margin: 0 auto;
+}
+
+.droids img {
+  height: 270px;
+  width: 100%;
+}
+
+span {
+  font-weight: bold;
+  color: #4e5e5c;
+}
+
+.irina {
+  margin: 0 auto;
+}
+
+.irina img {
+  height: 280px;
+}
+
+.android {
+  margin: 0 auto;
+}
+
+.android img {
+  height: 220px;
+}
+
+.video {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #04391b;
+  padding: 30px;
+}
+
+.video iframe {
+  margin: 0 auto;
+  width: 990px;
+  height: 470px;
+}
+
+aside {
+  margin-top: 35px;
+}
+
+.bar {
+  padding: 16px;
+  color: #ffffff;
+  background-color: #134a2a;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px; 
+}
+
+.maismain {
+  background-color: #5ea57e;
+  padding: 18px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; 
+}
+
+.maismain p {
+  color: #000000;
+}
+
+.lista {
+  display: flex;
+}
+
+.lista ul li i {
+  margin-right: 4px;
+  font-weight: bold;
+}
+
+#lista2 {
+  margin-left: 320px;
+}
+
+#l {
+  background-image: linear-gradient(to right, #5ea57e, #5ea57e, #5ea57e);
+}
+
+#fora {
+  text-indent: 0px;
+  margin-top: 30px;
+}
+
+footer {
+  display: flex;
+  padding: 12px;
+  color: #ffffff;
+  background-color: #04391b;
+  font-weight: bold;
+  margin-top: 70px;
+}
+
+footer p {
+  font-size: 17px;
+  margin: auto;
+}
+
+footer a i {
+  color: #ffffff;
+  font-size: 25px;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.356);
+}
+
+footer a i:hover {
+  color: #94ccae;
+}
+
+@media (max-width: 1024px) {
+  body {
+    background-color: white;
+  }
+  header {
+    padding: 10px 5px 3px 5px;
+  }
+  header h1 {
+    font-size: 32px;
+  }
+  
+  header p {
+    font-size: 15px;
+  }
+ 
+  nav ul li a {
+    font-size: 15px;
+    padding: 3px;
+  }
+  main {
+    width: auto;
+    height: 100%;
+    padding: 12px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+  }
+  
+  main h1 {
+    font-size: 23px;
+  }
+    
+  main h2 {
+    font-size: 20px;
+  }
+ 
+  .droids img {
+    height: 240px;
+  }
+
+  .irina img {
+    width: 100%;
+    height: 280px;
+  }
+
+  .android img {
+    height: 200px;
+  }
+  
+  .video {
+    padding: 13px 0px;
+    width: 100%;
+  }
+  
+  .video iframe {
+    width: 96%;
+    height: 390px;
+  }
+  footer {
+    margin-top: 0;
+  }
+  
+  footer a i {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 420px) {
+  header {
+    padding: 10px 5px 3px 5px;
+  }
+   
+  header h1 {
+    font-size: 20px;
+  }
+  
+  header p {
+    font-size: 13px;
+    margin-top: 12px;
+  }
+    
+  nav ul li a {
+    font-size: 13px;
+  }
+  
+  main h1 {
+    color: #183a29;
+    font-family: 'android';
+    font-size: 17px;
+  }
+  
+  main p {
+    font-size: 15px;
+    text-indent: 0px;
+  }
+  
+  main h2 {
+    font-size: 18px;
+  }
+ 
+  .droids img {
+    height: 340px;
+  }
+  
+  .video {
+    padding: 6px 0px;
+  }
+  
+  .video iframe {
+    height: 185px;
+  }
+
+  .maismain {
+    padding: 8px;
+  }
+
+  #lista2 {
+    margin-left: 0px;
+  }
+
+  footer {
+    padding: 8px;
+    margin-top: 12px; 
+  }
+  
+  footer p {
+    font-size: 15px;
+    margin: auto;
+  }
+  
+  footer a i {
+    font-size: 23px;
+  }
+}
+
+
+
+
+
+
+
+
