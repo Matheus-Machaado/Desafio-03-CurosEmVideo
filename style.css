@@ -12,6 +12,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   background-color: #e9e6c3;
 }
@@ -39,12 +43,12 @@ header p {
 
 nav ul {
   display: flex;
+  gap: 6px;
   margin-top: 15px;
 }
 
 nav ul li a {
   color: rgb(255, 255, 255);
-  margin-left: 6px;
   border-radius: 5px;
   padding: 5px;
 }
