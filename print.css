@@ -110,20 +110,19 @@ span {
 
 aside {
   margin-top: 35px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .bar {
   padding: 16px;
   color: #ffffff;
-  background-color: var(--cor04);border-top-left-radius: 10px;
-  border-top-right-radius: 10px; 
+  background-color: var(--cor04); 
 }
 
 .maismain {
   background-color: #5ea57e;
   padding: 18px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px; 
 }
 
 .maismain p {
